@@ -1,0 +1,12 @@
+{
+    "name": "hiraku/php-query-builder",
+    "type": "library",
+    "license": "CC0-1.0",
+    "authors": [
+        {
+            "name": "Hiraku NAKANO",
+            "email": "hiraku@tojiru.net"
+        }
+    ],
+    "require": {}
+}
