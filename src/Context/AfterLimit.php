@@ -1,7 +1,7 @@
 <?php
 namespace Hirak\QueryBuilder\Context;
 
-class AfterProject
+class AfterLimit
 {
     use Phrase\Union;
 }

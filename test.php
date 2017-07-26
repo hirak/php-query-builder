@@ -29,6 +29,6 @@ $rel = relation()
     ;
 
 $rel = relation()
-    ->project(['1'])
-    ->
+    ->from('users')
+    ->leftJoin('addresses', ['users.id', '=', 'addresses.user_id'])
     ;
