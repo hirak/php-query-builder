@@ -8,5 +8,14 @@
             "email": "hiraku@tojiru.net"
         }
     ],
-    "require": {}
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Hirak\\QueryBuilder\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
 }
